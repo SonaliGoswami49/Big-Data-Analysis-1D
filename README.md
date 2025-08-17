@@ -33,8 +33,6 @@ Evaluation focuses on recall-oriented metrics (Fβ with β=1.5, PR-AUC) to prior
 - Jupyter Notebook or JupyterLab
 
 ### Set up a virtual environment (recommended)
-```bash
-python -m venv .venv
 
 # Windows
 .venv\Scripts\activate
