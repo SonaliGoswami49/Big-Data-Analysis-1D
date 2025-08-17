@@ -41,6 +41,8 @@ python -m venv .venv
 
 # macOS/Linux
 source .venv/bin/activate
+```bash
+
 **Requirements**
  
 numpy>=1.24
