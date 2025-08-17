@@ -15,7 +15,7 @@ Evaluation focuses on recall-oriented metrics (Fβ with β=1.5, PR-AUC) to prior
 
  **Repository Structure**
  
-.
+ 
 ├── raw/processed datasets
 
 ├── Big_Data_Analysis_Final_Assignment_Submission.ipynb # main notebook 
@@ -64,33 +64,33 @@ pip install numpy pandas matplotlib scikit-learn xgboost
 
 **How to Run**
 
-Place datasets in data/ (optional, depending on your notebook’s data-loading code).
+1. Place datasets in data/ 
 
-Launch Jupyter and open the notebook:
+2. Launch Jupyter/Colab and open the notebook:
 
-Run all cells in order:
+3. Run all cells in order:
 
-Feature engineering
+4. Feature engineering
 
-Outbreak label + stratified splits
+5. Outbreak label + stratified splits
 
-Cross-validation and threshold policy
+6. Cross-validation and threshold policy
 
-Hyperparameter tuning (Logistic, RF, XGB)
+7. Hyperparameter tuning (Logistic, RF, XGB)
 
-Probability calibration
+8. Probability calibration
 
-Validation/Test evaluation with PR/ROC curves
+9. Validation/Test evaluation with PR/ROC curves
 
-Combined metrics table and plots
+10. Combined metrics table and plots
 
-Outputs saved by the notebook:
+11. Outputs saved by the notebook:
 
-model_metrics_combined.csv
+12. model_metrics_combined.csv
 
-pr_validation.png, pr_test.png
+13. pr_validation.png, pr_test.png
 
-roc_validation.png, roc_test.png
+14. roc_validation.png, roc_test.png
 
 **Reproducibility Notes**
 
