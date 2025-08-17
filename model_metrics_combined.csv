@@ -1,0 +1,4 @@
+Model,Threshold,Accuracy,Precision,Recall,F1,ROC-AUC,PR-AUC
+Logistic (tuned),0.5,0.889,0.6,1.0,0.75,0.906,0.604
+Random Forest (tuned),0.5,0.833,0.5,0.667,0.571,0.956,0.859
+XGBoost (tuned),0.5,0.833,0.5,0.667,0.571,0.928,0.623
