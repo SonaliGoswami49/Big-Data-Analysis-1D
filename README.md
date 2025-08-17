@@ -13,31 +13,36 @@ I engineer lag, delta, and rolling features, then train and compare three models
 
 Evaluation focuses on recall-oriented metrics (Fβ with β=1.5, PR-AUC) to prioritize detecting outbreaks.
 
-## Repository Structure
+ **Repository Structure**
 .
-├── data/ # optional: raw/processed datasets
-├── notebook.ipynb # main notebook (rename if different)
+├── raw/processed datasets
+
+├── Big_Data_Analysis_Final_Assignment_Submission.ipynb # main notebook 
+
 ├── model_metrics_combined.csv # exported metrics table (created by notebook)
+
 ├── pr_validation.png # PR curve on validation (created by notebook)
+
 ├── pr_test.png # PR curve on test (created by notebook)
+
 ├── roc_validation.png # ROC curve on validation (created by notebook)
+
 ├── roc_test.png # ROC curve on test (created by notebook)
+
 └── README.md
 
-> If your notebook saves files with different names or paths, update this section accordingly.
+** Installation**
 
-## Installation
-
-### Prerequisites
+** Prerequisites**
 - Python 3.9 or newer
 - Jupyter Notebook or JupyterLab
 
-### Set up a virtual environment (recommended)
+** Set up a virtual environment (recommended)**
 
-# Windows
+Windows
 .venv\Scripts\activate
 
-# macOS/Linux
+macOS/Linux
 source .venv/bin/activate
 ```bash
 
