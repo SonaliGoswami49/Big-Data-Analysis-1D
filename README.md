@@ -14,6 +14,7 @@ I engineer lag, delta, and rolling features, then train and compare three models
 Evaluation focuses on recall-oriented metrics (Fβ with β=1.5, PR-AUC) to prioritize detecting outbreaks.
 
  **Repository Structure**
+ 
 .
 ├── raw/processed datasets
 
@@ -31,20 +32,21 @@ Evaluation focuses on recall-oriented metrics (Fβ with β=1.5, PR-AUC) to prior
 
 └── README.md
 
-** Installation**
+**Installation**
 
-** Prerequisites**
+**Prerequisites**
 - Python 3.9 or newer
 - Jupyter Notebook or JupyterLab
+- Google Colab
 
-** Set up a virtual environment (recommended)**
+**Set up a virtual environment (recommended)**
 
 Windows
 .venv\Scripts\activate
 
 macOS/Linux
 source .venv/bin/activate
-```bash
+
 
 **Requirements**
  
