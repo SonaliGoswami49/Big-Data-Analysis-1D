@@ -6,6 +6,8 @@ I predict weekly disease outbreaks in Australia using:
 - COVID-19 case data (OWID)
 - Weather features (Meteostat)
 
+All the datasets used can be found here : https://drive.google.com/drive/folders/1NAkUXohes99hZNy5o6Gg3DkZpcoec39_?usp=sharing
+
 I engineer lag, delta, and rolling features, then train and compare three models:
 - Logistic Regression
 - Random Forest
